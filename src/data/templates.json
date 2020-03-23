@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Welcome message",
+        "message": "#greeting firstName, and welcome to #company. #roomNumber is ready for you.",
+        "parameters": {
+            "#greeting": {
+                "type": "string"
+            },
+            "firstName": {
+                "type": "string"
+            },
+            "#company": {
+                "type": "string"
+            },
+            "#roomNumber": "integer"
+        } 
+        
+    },
+    {
+        "id": 2,
+        "name": "Second message",
+        "message": "This is second message",
+        "parameters": {
+            "#greeting": {
+                "type": "string"
+            },
+            "firstName": {
+                "type": "string"
+            },
+            "#company": {
+                "type": "string"
+            },
+            "#roomNumber": "integer"
+        } 
+    }
+]
