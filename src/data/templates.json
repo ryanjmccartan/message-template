@@ -2,36 +2,11 @@
     {
         "id": 1,
         "name": "Welcome message",
-        "message": "#greeting firstName, and welcome to #company. #roomNumber is ready for you.",
-        "parameters": {
-            "#greeting": {
-                "type": "string"
-            },
-            "firstName": {
-                "type": "string"
-            },
-            "#company": {
-                "type": "string"
-            },
-            "#roomNumber": "integer"
-        } 
-        
+        "message": "#greeting #firstName, and welcome to #company. Room #roomNumber is ready for you. Enjoy your stay, and let us know if you need anything." 
     },
     {
         "id": 2,
-        "name": "Second message",
-        "message": "This is second message",
-        "parameters": {
-            "#greeting": {
-                "type": "string"
-            },
-            "firstName": {
-                "type": "string"
-            },
-            "#company": {
-                "type": "string"
-            },
-            "#roomNumber": "integer"
-        } 
+        "name": "Second breakfast",
+        "message": "Hello #firstName! We hope you enjoy the fine arts of Hobbiton, because second breakfast is being served at #company tomorrow morning. We'd be pleased if you joined us!"
     }
 ]
