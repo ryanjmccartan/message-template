@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Welcome message",
-        "message": "#greeting #firstName, and welcome to #company. Room #roomNumber is ready for you. Enjoy your stay, and let us know if you need anything." 
+        "message": "#greeting #firstName, and welcome to #company! Room #roomNumber is ready for you. Enjoy your stay, and let us know if you need anything." 
     },
     {
         "id": 2,
