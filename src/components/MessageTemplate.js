@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import companies from '../data/companies.json';
 import guests from '../data/guests.json';
 import templates from '../data/templates.json';
-import AddTemplate from './AddTemplate'
+// import AddTemplate from './AddTemplate'
 
 
 class MessageTemplate extends Component {
@@ -22,16 +22,6 @@ class MessageTemplate extends Component {
         }
     }
 }
-
-    // getTemplates = () => {
-    //     templates.map(template => {
-    //         this.setState({
-    //             greeting: template.greeting,
-    //             message: template.message
-    //         })
-    //     }) 
-    //     console.log(this.state.template)
-    // }
 
     checkData = () => {
         console.log(companies);
@@ -68,10 +58,6 @@ class MessageTemplate extends Component {
                 id: e.target.value
             }
         })
-    }
-
-    sendMessage = () => {
-        alert('Message sent!')
     }
 
     changeGreeting = () => {
@@ -139,9 +125,8 @@ class MessageTemplate extends Component {
                     return <option key={template.id} value={template.id}>{template.name}</option>
                 })}
                     </select>
-                {/* <button onClick={this.checkData}>Check data</button> */}
-                <h3>Create template:</h3>
-                <AddTemplate/>
+                {/* <h3>Create template:</h3> */}
+                {/* <AddTemplate/> */}
                 <h3>Message to send:</h3>
                 <p>{message}</p>
             </div>

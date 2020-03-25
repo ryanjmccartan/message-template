@@ -8,5 +8,10 @@
         "id": 2,
         "name": "Second breakfast",
         "message": "Hello #firstName! We hope you enjoy the fine arts of Hobbiton, because second breakfast is being served at #company tomorrow morning. We'd be pleased if you joined us!"
+    },
+    {
+        "id": 3,
+        "name": "Room service",
+        "message": "#greeting #firstName! We received your room service order and it will arrive at #roomNumber shortly. Enjoy!"
     }
 ]
